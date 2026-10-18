@@ -7,16 +7,21 @@ sites:
     url: https://senchin.dpdns.org
   - name: Artalk
     url: https://artalk.senchin.dpdns.org
-
+  - name: CDN
+    url: https://cdn.senchin.dpdns.org
+  - name: 国际网路
+    url: edgetunnel.senchin.dpdns.org
+  - name: SubStracker
+    url: https://subtracker.senchin.dpdns.org
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname:
   baseUrl: /status
   logoUrl: https://senchin.dpdns.org/media/avatar-o.webp
-  name: 千顷
-  introTitle: "状态页"
-  introMessage: 实时展示服务状态
+  name: 消湮​. ​Σ  ̄
+  introTitle: "状态"
+  introMessage: 展示最近服务状态
   navbar:
     - title: 主页
       href: /
