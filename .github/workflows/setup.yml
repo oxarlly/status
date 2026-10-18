@@ -32,6 +32,16 @@ jobs:
     env:
       GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
     steps:
+      - name: Setup Node.js for status page
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - name: Install dependencies & build status page
+        working-directory: site/status-page
+        run: |
+         npm ci
+         npm run build
+
       - name: Create GitHub App token
         id: app_token
         if: ${{ vars.GH_APP_ID != '' && env.GH_APP_PRIVATE_KEY != '' }}
