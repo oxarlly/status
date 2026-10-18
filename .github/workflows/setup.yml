@@ -48,15 +48,6 @@ jobs:
         with:
           ref: ${{ github.head_ref || github.ref_name }}
           token: ${{ steps.app_token.outputs.token || secrets.GH_PAT || github.token }}
-      - name: Setup Node.js for status page
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-      - name: Install dependencies & build status page
-        working-directory: site/status-page
-        run: |
-          npm ci
-          npm run build
       - name: Update template
         uses: upptime/uptime-monitor@v1.46.0
         with:
