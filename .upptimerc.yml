@@ -12,9 +12,9 @@ sites:
   - name: CDN
     url: https://cdn.senchin.dpdns.org
   - name: 国际网路
-    url: https://edgetunnel.senchin.dpdns.org
+    url: https://et.senchin.dpdns.org
   - name: SubStracker
-    url: https://subtracker.senchin.dpdns.org
+    url: https://substracker.senchin.dpdns.org
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
