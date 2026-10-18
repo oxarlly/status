@@ -8,7 +8,7 @@ sites:
     icon: https://senchin.dpdns.org/media/favicon.webp
   - name: Artalk
     url: https://artalk.senchin.dpdns.org
-    icon: https://artalk.senchin.dpdns.org/media/artalk.webp
+    icon: https://senchin.dpdns.org/media/artalk.webp
   - name: CDN
     url: https://cdn.senchin.dpdns.org
   - name: 国际网路
